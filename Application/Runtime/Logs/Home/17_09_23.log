@@ -1,0 +1,1086 @@
+[ 2017-09-23T09:13:39+08:00 ] 127.0.0.1 /jiayoulong/Home/Wechat/hotelSelectAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_hotel` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `think_hotel_home_style` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_hotel_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel` ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 10 ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 26  [ RunTime:0.0090s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 27  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 11 ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 21  [ RunTime:0.0010s ]
+
+[ 2017-09-23T09:34:52+08:00 ] 127.0.0.1 /jiayoulong/Home/Wechat/hotelSelectAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_hotel` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_hotel_home_style` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_hotel_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `think_hotel` ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 10 ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 27  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 11 ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 21  [ RunTime:0.0000s ]
+
+[ 2017-09-23T09:40:05+08:00 ] 127.0.0.1 /jiayoulong/Home/Wechat/hotelSelectAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_hotel` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_hotel_home_style` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_hotel_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel` ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 10 ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 27  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 11 ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 21  [ RunTime:0.0000s ]
+
+[ 2017-09-23T09:40:25+08:00 ] 127.0.0.1 /jiayoulong/Home/Wechat/hotelSelectAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_hotel` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_hotel_home_style` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `think_hotel_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel` ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 10 ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 27  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 11 ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 21  [ RunTime:0.0000s ]
+
+[ 2017-09-23T09:41:05+08:00 ] 127.0.0.1 /jiayoulong/Home/Wechat/hotelSelectAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_hotel` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_hotel_home_style` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_hotel_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel` ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 10 ORDER BY id desc  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 27  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 11 ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 21  [ RunTime:0.0010s ]
+
+[ 2017-09-23T09:42:32+08:00 ] 127.0.0.1 /jiayoulong/Home/Wechat/hotelSelectAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_hotel` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_hotel_home_style` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_hotel_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel` ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 10 ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 27  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 11 ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 21  [ RunTime:0.0000s ]
+
+[ 2017-09-23T09:42:33+08:00 ] 127.0.0.1 /jiayoulong/Home/Wechat/userLogin?code=013UIoNf1aztdx0bRmPf1TuINf1UIoNN
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-23T09:42:49+08:00 ] 127.0.0.1 /jiayoulong/Home/Wechat/hotelSelectAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_hotel` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_hotel_home_style` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `think_hotel_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel` ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 10 ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 26  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 27  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 11 ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 21  [ RunTime:0.0000s ]
+
+[ 2017-09-23T09:42:50+08:00 ] 127.0.0.1 /jiayoulong/Home/Wechat/userLogin?code=003XO3Sr0mk38c1pE3Qr0YwZRr0XO3Sr
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-23T09:43:20+08:00 ] 127.0.0.1 /jiayoulong/Home/Wechat/hotelSelectAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_hotel` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_hotel_home_style` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_hotel_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel` ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 10 ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 27  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 11 ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 21  [ RunTime:0.0000s ]
+
+[ 2017-09-23T09:43:21+08:00 ] 127.0.0.1 /jiayoulong/Home/Wechat/userLogin?code=013KxjiS05Uf4a2VZ8jS0d31iS0KxjiR
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-23T09:43:33+08:00 ] 127.0.0.1 /jiayoulong/Home/Wechat/hotelSelectAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_hotel` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_hotel_home_style` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_hotel_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel` ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 10 ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 27  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 11 ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 21  [ RunTime:0.0010s ]
+
+[ 2017-09-23T09:43:33+08:00 ] 127.0.0.1 /jiayoulong/Home/Wechat/userLogin?code=003WoaGM1TYKq21KoIGM1XHqGM1WoaG4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-23T10:00:02+08:00 ] 127.0.0.1 /jiayoulong/Home/Wechat/hotelSelectAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_hotel` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_hotel_home_style` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_hotel_member` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel` ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 10 ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 27  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 11 ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 21  [ RunTime:0.0000s ]
+
+[ 2017-09-23T10:00:03+08:00 ] 127.0.0.1 /jiayoulong/Home/Wechat/userLogin?code=013gYGuP1XEe441HPDtP1dEyuP1gYGu1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: obj D:\wamp64\www\jiayoulong\Application\Home\Controller\WechatController.class.php 第 345 行.
+
+[ 2017-09-23T10:00:27+08:00 ] 127.0.0.1 /jiayoulong/Home/Wechat/hotelSelectAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_hotel` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_hotel_home_style` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_hotel_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel` ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 10 ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 27  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 11 ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 21  [ RunTime:0.0000s ]
+
+[ 2017-09-23T10:00:55+08:00 ] 127.0.0.1 /jiayoulong/Home/Wechat/hotelSelectAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_hotel` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_hotel_home_style` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `think_hotel_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel` ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 10 ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 26  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 27  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 11 ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 21  [ RunTime:0.0000s ]
+
+[ 2017-09-23T10:04:29+08:00 ] 127.0.0.1 /jiayoulong/Home/Wechat/hotelSelectAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_hotel` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_hotel_home_style` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_hotel_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel` ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 10 ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 27  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 11 ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 21  [ RunTime:0.0000s ]
+
+[ 2017-09-23T10:05:44+08:00 ] 127.0.0.1 /jiayoulong/Home/Wechat/hotelSelectAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_hotel` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `think_hotel_home_style` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_hotel_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel` ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 10 ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 27  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 11 ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 21  [ RunTime:0.0010s ]
+
+[ 2017-09-23T10:10:37+08:00 ] 127.0.0.1 /jiayoulong/Home/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.092000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-09-23T10:10:42+08:00 ] 127.0.0.1 /jiayoulong/index.php/Home/Admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_manager` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_manager` WHERE `phone` = '18164626080' AND `password` = '123456'  [ RunTime:0.0000s ]
+
+[ 2017-09-23T10:10:42+08:00 ] 127.0.0.1 /jiayoulong/index.php/Home/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageName D:\wamp64\www\jiayoulong\Application\Runtime\Cache\Home\2cf09506161e9442bd1ad02f12a1e9e4.php 第 62 行.
+SQL: SHOW COLUMNS FROM `think_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_order` WHERE `view` = 0  [ RunTime:0.0100s ]
+NOTIC: [8] Undefined variable: pageName D:\wamp64\www\jiayoulong\Application\Runtime\Cache\Home\2cf09506161e9442bd1ad02f12a1e9e4.php 第 75 行.
+NOTIC: [8] Undefined variable: pageName D:\wamp64\www\jiayoulong\Application\Runtime\Cache\Home\2cf09506161e9442bd1ad02f12a1e9e4.php 第 82 行.
+NOTIC: [8] Undefined variable: pageName D:\wamp64\www\jiayoulong\Application\Runtime\Cache\Home\2cf09506161e9442bd1ad02f12a1e9e4.php 第 88 行.
+NOTIC: [8] Undefined variable: pageName D:\wamp64\www\jiayoulong\Application\Runtime\Cache\Home\2cf09506161e9442bd1ad02f12a1e9e4.php 第 94 行.
+NOTIC: [8] Undefined variable: pageName D:\wamp64\www\jiayoulong\Application\Runtime\Cache\Home\2cf09506161e9442bd1ad02f12a1e9e4.php 第 101 行.
+NOTIC: [8] Undefined variable: pageName D:\wamp64\www\jiayoulong\Application\Runtime\Cache\Home\2cf09506161e9442bd1ad02f12a1e9e4.php 第 108 行.
+NOTIC: [8] Undefined variable: pageName D:\wamp64\www\jiayoulong\Application\Runtime\Cache\Home\2cf09506161e9442bd1ad02f12a1e9e4.php 第 133 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-23T10:10:44+08:00 ] 127.0.0.1 /jiayoulong/index.php/Home/Admin/toMessage/pageName/message.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: status D:\wamp64\www\jiayoulong\Application\Runtime\Cache\Home\ec423755740c4bb618939d70225cb3e8.php 第 35 行.
+NOTIC: [8] Undefined variable: status D:\wamp64\www\jiayoulong\Application\Runtime\Cache\Home\ec423755740c4bb618939d70225cb3e8.php 第 37 行.
+NOTIC: [8] Undefined variable: status D:\wamp64\www\jiayoulong\Application\Runtime\Cache\Home\ec423755740c4bb618939d70225cb3e8.php 第 39 行.
+NOTIC: [8] Undefined index: status D:\wamp64\www\jiayoulong\Application\Runtime\Cache\Home\ec423755740c4bb618939d70225cb3e8.php 第 41 行.
+SQL: SHOW COLUMNS FROM `think_order` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `think_order` WHERE `view` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_order` WHERE `status` = 0 ORDER BY id DESC  [ RunTime:0.0120s ]
+SQL: SELECT * FROM `think_order` WHERE `status` = 2 ORDER BY id DESC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_order` ORDER BY id DESC  [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-23T10:10:46+08:00 ] 127.0.0.1 /jiayoulong/index.php/Home/Wechat/orderSelectByStatus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_order` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `think_order` WHERE `status` = '0' ORDER BY id desc  [ RunTime:0.0010s ]
+
+[ 2017-09-23T10:13:47+08:00 ] 127.0.0.1 /jiayoulong/index.php/Home/Wechat/orderSelectByStatus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_order` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_order` ORDER BY id desc  [ RunTime:0.0010s ]
+
+[ 2017-09-23T10:13:48+08:00 ] 127.0.0.1 /jiayoulong/index.php/Home/Wechat/orderSelectByStatus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_order` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `think_order` WHERE `status` = '0' ORDER BY id desc  [ RunTime:0.0000s ]
+
+[ 2017-09-23T10:19:05+08:00 ] 127.0.0.1 /jiayoulong/Home/Wechat/hotelSelectAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_hotel` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_hotel_home_style` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_hotel_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel` ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 10 ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 27  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 11 ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 21  [ RunTime:0.0010s ]
+
+[ 2017-09-23T10:19:12+08:00 ] 127.0.0.1 /jiayoulong/Home/Wechat/hotelSelectAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_hotel` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_hotel_home_style` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_hotel_member` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel` ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 10 ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 27  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 11 ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 21  [ RunTime:0.0010s ]
+
+[ 2017-09-23T10:23:50+08:00 ] 127.0.0.1 /jiayoulong/Home/Wechat/hotelSelectAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_hotel` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `think_hotel_home_style` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_hotel_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel` ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 10 ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 27  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 11 ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 21  [ RunTime:0.0010s ]
+
+[ 2017-09-23T10:24:13+08:00 ] 127.0.0.1 /jiayoulong/Home/Wechat/hotelSelectAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_hotel` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_hotel_home_style` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_hotel_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel` ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 10 ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 27  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 11 ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 21  [ RunTime:0.0010s ]
+
+[ 2017-09-23T10:24:28+08:00 ] 127.0.0.1 /jiayoulong/Home/Wechat/hotelSelectAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_hotel` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_hotel_home_style` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_hotel_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel` ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 10 ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 26  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 27  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 11 ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 21  [ RunTime:0.0000s ]
+
+[ 2017-09-23T10:26:12+08:00 ] 127.0.0.1 /jiayoulong/Home/Wechat/hotelSelectAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_hotel` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_hotel_home_style` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_hotel_member` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `think_hotel` ORDER BY id desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 10 ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 27  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 11 ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 21  [ RunTime:0.0010s ]
+
+[ 2017-09-23T10:27:08+08:00 ] 127.0.0.1 /jiayoulong/Home/Wechat/hotelSelectAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_hotel` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_hotel_home_style` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `think_hotel_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel` ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 10 ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 26  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 27  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 11 ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 21  [ RunTime:0.0000s ]
+
+[ 2017-09-23T10:27:23+08:00 ] 127.0.0.1 /jiayoulong/Home/Wechat/hotelSelectAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_hotel` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_hotel_home_style` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `think_hotel_member` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel` ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 10 ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 27  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 11 ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 21  [ RunTime:0.0010s ]
+
+[ 2017-09-23T10:27:32+08:00 ] 127.0.0.1 /jiayoulong/Home/Wechat/hotelSelectAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_hotel` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `think_hotel_home_style` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_hotel_member` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel` ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 10 ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 26  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 27  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 11 ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 21  [ RunTime:0.0000s ]
+
+[ 2017-09-23T10:28:22+08:00 ] 127.0.0.1 /jiayoulong/Home/Wechat/hotelSelectAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_hotel` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `think_hotel_home_style` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_hotel_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel` ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 10 ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 27  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 11 ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 21  [ RunTime:0.0010s ]
+
+[ 2017-09-23T10:28:27+08:00 ] 127.0.0.1 /jiayoulong/Home/Wechat/hotelSelectAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_hotel` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_hotel_home_style` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_hotel_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel` ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 10 ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 27  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 11 ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 21  [ RunTime:0.0010s ]
+
+[ 2017-09-23T10:28:39+08:00 ] 127.0.0.1 /jiayoulong/Home/Wechat/hotelSelectAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_hotel` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `think_hotel_home_style` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_hotel_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel` ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 10 ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 27  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 11 ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 21  [ RunTime:0.0020s ]
+
+[ 2017-09-23T10:29:28+08:00 ] 127.0.0.1 /jiayoulong/Home/Wechat/hotelSelectAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_hotel` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `think_hotel_home_style` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `think_hotel_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel` ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 10 ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 27  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 11 ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 21  [ RunTime:0.0000s ]
+
+[ 2017-09-23T10:30:16+08:00 ] 127.0.0.1 /jiayoulong/Home/Wechat/hotelSelectAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_hotel` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_hotel_home_style` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `think_hotel_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel` ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 10 ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 26  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 27  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 11 ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 21  [ RunTime:0.0000s ]
+
+[ 2017-09-23T10:30:52+08:00 ] 127.0.0.1 /jiayoulong/Home/Wechat/hotelSelectAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_hotel` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_hotel_home_style` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_hotel_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel` ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 10 ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 27  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 11 ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 21  [ RunTime:0.0000s ]
+
+[ 2017-09-23T10:31:15+08:00 ] 127.0.0.1 /jiayoulong/Home/Wechat/hotelSelectAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_hotel` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_hotel_home_style` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_hotel_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel` ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 10 ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 27  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 11 ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 21  [ RunTime:0.0010s ]
+
+[ 2017-09-23T10:31:18+08:00 ] 127.0.0.1 /jiayoulong/Home/Wechat/hotelSelectAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_hotel` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_hotel_home_style` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `think_hotel_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `think_hotel` ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 10 ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 26  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 27  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 11 ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 21  [ RunTime:0.0010s ]
+
+[ 2017-09-23T10:32:30+08:00 ] 127.0.0.1 /jiayoulong/Home/Wechat/hotelSelectAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_hotel` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_hotel_home_style` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_hotel_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel` ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 10 ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 26  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 27  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 11 ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 21  [ RunTime:0.0000s ]
+
+[ 2017-09-23T10:32:50+08:00 ] 127.0.0.1 /jiayoulong/Home/Wechat/hotelSelectAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_hotel` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_hotel_home_style` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_hotel_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel` ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 10 ORDER BY id desc  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 26  [ RunTime:0.0050s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 27  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 11 ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 21  [ RunTime:0.0000s ]
+
+[ 2017-09-23T10:35:19+08:00 ] 127.0.0.1 /jiayoulong/Home/Wechat/hotelSelectAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_hotel` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `think_hotel_home_style` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `think_hotel_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel` ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 10 ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 26  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 27  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 11 ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 21  [ RunTime:0.0000s ]
+
+[ 2017-09-23T10:35:46+08:00 ] 127.0.0.1 /jiayoulong/Home/Wechat/hotelSelectAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_hotel` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_hotel_home_style` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_hotel_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel` ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 10 ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 27  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 11 ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 21  [ RunTime:0.0010s ]
+
+[ 2017-09-23T10:36:18+08:00 ] 127.0.0.1 /jiayoulong/Home/Wechat/hotelSelectAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_hotel` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `think_hotel_home_style` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_hotel_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `think_hotel` ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 10 ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 26  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 27  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 11 ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 21  [ RunTime:0.0000s ]
+
+[ 2017-09-23T10:36:41+08:00 ] 127.0.0.1 /jiayoulong/Home/Wechat/hotelSelectAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_hotel` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `think_hotel_home_style` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `think_hotel_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel` ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 10 ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 27  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 11 ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 21  [ RunTime:0.0000s ]
+
+[ 2017-09-23T10:36:54+08:00 ] 127.0.0.1 /jiayoulong/Home/Wechat/hotelSelectAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_hotel` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_hotel_home_style` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_hotel_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `think_hotel` ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 10 ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 26  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 27  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 11 ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 21  [ RunTime:0.0000s ]
+
+[ 2017-09-23T10:36:58+08:00 ] 127.0.0.1 /jiayoulong/Home/Wechat/hotelSelectAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_hotel` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_hotel_home_style` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `think_hotel_member` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel` ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 10 ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 27  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 11 ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 21  [ RunTime:0.0000s ]
+
+[ 2017-09-23T10:37:21+08:00 ] 127.0.0.1 /jiayoulong/Home/Wechat/hotelSelectAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_hotel` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `think_hotel_home_style` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_hotel_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel` ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 10 ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 27  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 11 ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 21  [ RunTime:0.0010s ]
+
+[ 2017-09-23T10:37:39+08:00 ] 127.0.0.1 /jiayoulong/Home/Wechat/hotelSelectAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_hotel` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_hotel_home_style` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_hotel_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `think_hotel` ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 10 ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 26  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 27  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 11 ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 21  [ RunTime:0.0000s ]
+
+[ 2017-09-23T10:37:50+08:00 ] 127.0.0.1 /jiayoulong/Home/Wechat/hotelSelectAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_hotel` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `think_hotel_home_style` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_hotel_member` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel` ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 10 ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 26  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 27  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 11 ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 21  [ RunTime:0.0000s ]
+
+[ 2017-09-23T10:38:03+08:00 ] 127.0.0.1 /jiayoulong/Home/Wechat/hotelSelectAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_hotel` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_hotel_home_style` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `think_hotel_member` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel` ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 10 ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 26  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 27  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 11 ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 21  [ RunTime:0.0000s ]
+
+[ 2017-09-23T10:38:13+08:00 ] 127.0.0.1 /jiayoulong/Home/Wechat/hotelSelectAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_hotel` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_hotel_home_style` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_hotel_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel` ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 10 ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 26  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 27  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 11 ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 21  [ RunTime:0.0010s ]
+
+[ 2017-09-23T10:38:39+08:00 ] 127.0.0.1 /jiayoulong/Home/Wechat/hotelSelectAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_hotel` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_hotel_home_style` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_hotel_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel` ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 10 ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 27  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 11 ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 21  [ RunTime:0.0000s ]
+
+[ 2017-09-23T10:39:04+08:00 ] 127.0.0.1 /jiayoulong/Home/Wechat/hotelSelectAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_hotel` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `think_hotel_home_style` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_hotel_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel` ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 10 ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 26  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 27  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 11 ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 21  [ RunTime:0.0000s ]
+
+[ 2017-09-23T10:39:34+08:00 ] 127.0.0.1 /jiayoulong/Home/Wechat/hotelSelectAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_hotel` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `think_hotel_home_style` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_hotel_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel` ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 10 ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 27  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 11 ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 21  [ RunTime:0.0000s ]
+
+[ 2017-09-23T10:39:41+08:00 ] 127.0.0.1 /jiayoulong/Home/Wechat/hotelSelectAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_hotel` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_hotel_home_style` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_hotel_member` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel` ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 10 ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 27  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 11 ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 21  [ RunTime:0.0000s ]
+
+[ 2017-09-23T10:41:19+08:00 ] 127.0.0.1 /jiayoulong/Home/Wechat/hotelSelectAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_hotel` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_hotel_home_style` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_hotel_member` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel` ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 10 ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 27  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 11 ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 21  [ RunTime:0.0000s ]
+
+[ 2017-09-23T15:04:17+08:00 ] 127.0.0.1 /jiayoulong/Home/Wechat/hotelSelectAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `think_hotel` [ RunTime:0.1640s ]
+SQL: SHOW COLUMNS FROM `think_hotel_home_style` [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `think_hotel_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `think_hotel` ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 10 ORDER BY id desc  [ RunTime:0.0030s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 27  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 11 ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 21  [ RunTime:0.0000s ]
+
+[ 2017-09-23T15:10:58+08:00 ] 127.0.0.1 /jiayoulong/Home/Wechat/hotelSelectAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-23T15:29:24+08:00 ] 127.0.0.1 /jiayoulong/Home/Wechat/hotelSelectAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_hotel` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_hotel_home_style` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_hotel_member` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel` ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 10 ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 27  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 11 ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 21  [ RunTime:0.0010s ]
+
+[ 2017-09-23T15:29:31+08:00 ] 127.0.0.1 /jiayoulong/Home/Wechat/hotelSelectAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_hotel` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_hotel_home_style` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_hotel_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel` ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 10 ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 27  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 11 ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 21  [ RunTime:0.0000s ]
+
+[ 2017-09-23T15:29:47+08:00 ] 127.0.0.1 /jiayoulong/Home/Wechat/hotelSelectAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_hotel` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `think_hotel_home_style` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_hotel_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel` ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 10 ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 27  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 11 ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 21  [ RunTime:0.0000s ]
+
+[ 2017-09-23T15:29:54+08:00 ] 127.0.0.1 /jiayoulong/Home/Wechat/hotelSelectAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_hotel` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_hotel_home_style` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_hotel_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel` ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 10 ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 26  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 27  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_hotel_home_style` WHERE `id` = 11 ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_hotel_member` WHERE `id` = 21  [ RunTime:0.0000s ]
+
