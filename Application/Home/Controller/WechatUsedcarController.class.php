@@ -57,10 +57,8 @@ class WechatUsedcarController extends Controller {
 		$upload->savePath  =     'usedCar/'; // 设置附件上传（子）目录
 		// 上传文件
 		$info   =   $upload->upload();
-        $path=$upload->rootPath.$info['file']['savepath'].$info['file']['savename'];
-		$this->ajaxReturn(['code'=>$path]);
-		var_dump($info);
-		exit;
+        //$path=$upload->rootPath.$info['file']['savepath'].$info['file']['savename'];
+		//$this->ajaxReturn(['code'=>$path]);
 		if(!$info) {// 上传错误提示错误信息
 			$this->ajaxReturn($upload->getError());
 		}else{// 上传成功
