@@ -1,6 +1,2 @@
-Runtime/
-Config/dbs.php
-*.swp
-*.project
-htdocs
-.idea
+/Application/Runtime/
+/Upload/
