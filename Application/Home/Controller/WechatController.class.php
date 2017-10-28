@@ -312,9 +312,213 @@ class WechatController extends Controller {
         header('content-type:text/html;charset=utf-8');
         $CarBrand = D('CarBrand');
 
-        $result = $CarBrand -> select();
+        $result = $CarBrand -> order('initial') -> select();
         $this -> ajaxReturn($result);
     }
+
+    // 足迹------------------------------------------
+    public function footprintAdd() {
+        header('content-type:text/html;charset=utf-8');
+        $Footprint = D('Footprint');
+
+        $user_phone = $_POST['user_phone'];
+        $car_id = $_POST['car_id'];
+
+        $result = $Footprint -> where(array('user_phone' => $user_phone)) -> select();
+
+        if ($result) {
+            $result = $result[0];
+            $car_id_arr = explode(' | ', $result['car_id_arr']);
+            array_push($car_id_arr, $car_id);
+        }else {
+            $Footprint -> data(array('user_phone' => $user_phone, 'car_id_arr' => $car_id)) -> add();
+            $result = $Footprint -> where(array('user_phone' => $user_phone)) -> select();
+            $result = $result[0];
+            $car_id_arr = explode(' | ', $result['car_id_arr']);
+        }
+
+        //最多20个足迹
+        if (count($car_id_arr) > 20) {
+            unset($car_id_arr[0]);
+        }
+        $car_id_arr = implode(' | ', $car_id_arr);
+
+        if ($Footprint -> where(array('user_phone' => $user_phone)) -> save(array('car_id_arr' => $car_id_arr))) {
+            $param = array(
+                'code'=> '200',
+                'status'=> 'success'
+            );
+            $this -> ajaxReturn($param);
+        }else {
+            $param = array(
+                'code'=> '400',
+                'status'=> 'fail'
+            );
+            $this -> ajaxReturn($param);
+        }
+    }
+
+    public function footprintSelectByPhone() {
+        header('content-type:text/html;charset=utf-8');
+        $Car = D('Car');
+        $CarBrand = D('Car_brand');
+        $CarStyle = D('Car_style');
+        $Footprint = D('Footprint');
+
+        $user_phone = $_POST['user_phone'];
+        // $user_phone = '18164626080';
+
+        $result = $Footprint -> where(array('user_phone' => $user_phone)) -> select();
+        $result = $result[0];
+
+        $car_id_arr = $result['car_id_arr'];
+        $car_id_arr = explode(' | ', $car_id_arr);
+
+        $newArr = array();
+        foreach ($car_id_arr as $key => $val) {
+            $simpleCar = $Car -> where(array('id' => $val)) -> select();
+            $simpleCar = $simpleCar[0];
+            array_unshift($newArr, $simpleCar);
+        }
+
+        foreach($newArr as $key => $val) {
+            $brand_name = $CarBrand -> where(array('id' => $val['brand_id'])) -> select();
+            $brand_name = $brand_name[0]['name'];
+            $newArr[$key]['brand_name'] = $brand_name;
+
+            $style_name = $CarStyle -> where(array('id' => $val['style_id'])) -> select();
+            $style_name = $style_name[0]['name'];
+            $newArr[$key]['style_name'] = $style_name;
+        }
+
+        $param = array(
+            'code'=> '200',
+            'status'=> 'success',
+            'data' => $newArr
+        );
+        $this -> ajaxReturn($param);
+    }
+
+    // 足迹------------------------------------------ end
+
+    // 收藏------------------------------------------
+    public function collectionAdd() {
+        header('content-type:text/html;charset=utf-8');
+        $Collection = D('Collection');
+
+        $user_phone = $_POST['user_phone'];
+        $car_id = $_POST['car_id'];
+
+        $result = $Collection -> where(array('user_phone' => $user_phone)) -> select();
+
+        if ($result) {
+            $result = $result[0];
+            $car_id_arr = explode(' | ', $result['car_id_arr']);
+            array_push($car_id_arr, $car_id);
+        }else {
+            $Collection -> data(array('user_phone' => $user_phone, 'car_id_arr' => $car_id)) -> add();
+            $result = $Collection -> where(array('user_phone' => $user_phone)) -> select();
+            $result = $result[0];
+            $car_id_arr = explode(' | ', $result['car_id_arr']);
+        }
+
+        $car_id_arr = implode(' | ', $car_id_arr);
+
+        if ($Collection -> where(array('user_phone' => $user_phone)) -> save(array('car_id_arr' => $car_id_arr))) {
+            $param = array(
+                'code'=> '200',
+                'status'=> 'success'
+            );
+            $this -> ajaxReturn($param);
+        }else {
+            $param = array(
+                'code'=> '400',
+                'status'=> 'fail'
+            );
+            $this -> ajaxReturn($param);
+        }
+    }
+
+    public function collectionDelete() {
+        header('content-type:text/html;charset=utf-8');
+        $Collection = D('Collection');
+
+        $user_phone = $_POST['user_phone'];
+        $car_id = $_POST['car_id'];
+
+        $result = $Collection -> where(array('user_phone' => $user_phone)) -> select();
+
+        $result = $result[0];
+        $car_id_arr = explode(' | ', $result['car_id_arr']);
+        foreach ($car_id_arr as $key => $val) {
+            if ($val == $car_id) {
+                unset($car_id_arr[$key]);
+            }
+        }
+        
+        $car_id_arr = implode(' | ', $car_id_arr);
+
+        if ($Collection -> where(array('user_phone' => $user_phone)) -> save(array('car_id_arr' => $car_id_arr))) {
+            $param = array(
+                'code'=> '200',
+                'status'=> 'success'
+            );
+            $this -> ajaxReturn($param);
+        }else {
+            $param = array(
+                'code'=> '400',
+                'status'=> 'fail'
+            );
+            $this -> ajaxReturn($param);
+        }
+    }
+
+    public function collectionSelectByPhone() {
+        header('content-type:text/html;charset=utf-8');
+        $Car = D('Car');
+        $CarBrand = D('Car_brand');
+        $CarStyle = D('Car_style');
+        $Collection = D('Collection');
+
+        $user_phone = $_POST['user_phone'];
+        // $user_phone = '18164626080';
+
+        $result = $Collection -> where(array('user_phone' => $user_phone)) -> select();
+        $result = $result[0];
+
+        $car_id_arr = $result['car_id_arr'];
+        $car_id_arr = explode(' | ', $car_id_arr);
+
+        
+
+        $newArr = array();
+        foreach ($car_id_arr as $key => $val) {
+            $simpleCar = $Car -> where(array('id' => $val)) -> select();
+            $simpleCar = $simpleCar[0];
+            array_unshift($newArr, $simpleCar);
+        }
+
+        foreach($newArr as $key => $val) {
+            $brand_name = $CarBrand -> where(array('id' => $val['brand_id'])) -> select();
+            $brand_name = $brand_name[0]['name'];
+            $newArr[$key]['brand_name'] = $brand_name;
+
+            $style_name = $CarStyle -> where(array('id' => $val['style_id'])) -> select();
+            $style_name = $style_name[0]['name'];
+            $newArr[$key]['style_name'] = $style_name;
+        }
+
+        $param = array(
+            'code'=> '200',
+            'status'=> 'success',
+            'car_id_arr' => $car_id_arr,
+            'data' => $newArr
+        );
+        $this -> ajaxReturn($param);
+    }
+
+    // 收藏------------------------------------------ end
+
 
 
 
