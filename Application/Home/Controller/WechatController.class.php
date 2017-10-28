@@ -358,6 +358,27 @@ class WechatController extends Controller {
         }
     }
 
+    public function footprintDeleteAll() {
+        header('content-type:text/html;charset=utf-8');
+        $Footprint = D('Footprint');
+
+        $user_phone = $_POST['user_phone'];
+
+        if ($Footprint -> where(array('user_phone' => $user_phone)) -> delete()) {
+            $param = array(
+                'code'=> '200',
+                'status'=> 'success'
+            );
+            $this -> ajaxReturn($param);
+        }else {
+            $param = array(
+                'code'=> '400',
+                'status'=> 'fail'
+            );
+            $this -> ajaxReturn($param);
+        }
+    }
+
     public function footprintSelectByPhone() {
         header('content-type:text/html;charset=utf-8');
         $Car = D('Car');
